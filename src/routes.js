@@ -1,5 +1,3 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
-
 import React from 'react';
 import Router from 'react-routing/src/Router';
 import http from './core/HttpClient';
@@ -10,7 +8,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
-import Counter from './components/Counter';
+import SurgeryList from './components/SurgeryList';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -18,7 +16,7 @@ const router = new Router(on => {
     return component && <App context={state.context}>{component}</App>;
   });
 
-  on('/', async () => <Counter />);
+  on('/', async () => <SurgeryList />);
 
   on('/agendamentos', async () => <ContactPage />);
 

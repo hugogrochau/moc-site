@@ -12,12 +12,10 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <div className="Header-container">
           <a className="Header-brand" href="/" onClick={Link.handleClick}>
-            <span className="Header-brandTxt">MOC</span>
+            <img className="Header-brand-image" src="http://hugo.grochau.com/i/logo@2x.png"/>
           </a>
           <Navigation className="Header-nav" />
-        </div>
       </div>
     );
   }

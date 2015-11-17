@@ -5,4 +5,5 @@ import keyMirror from 'fbjs/lib/keyMirror';
 export default keyMirror({
   ADD_VALUE: null,
   REMOVE_VALUE: null,
+  RECEIVE_SURGERIES: null,
 });

@@ -10,11 +10,11 @@
 .Navigation-link,
 .Navigation-link:active,
 .Navigation-link:visited {
-  color: rgba(255, 255, 255, .6);
+  color: black;
 }
 
 .Navigation-link:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .Navigation-link--highlight {

@@ -3,33 +3,34 @@
 @import '../variables.css';
 
 :root {
-  --brand-color: #61dafb;
+  --brand-color: blue;
 }
 
 .Header {
-  background: #373277;
-  color: #fff;
-}
-
-.Header-container {
-  margin: 0 auto;
-  padding: 20px 0;
-  max-width: var(--max-content-width);
+  background: white;
+  border-bottom: 2px rgba(0, 0, 0, 0.2) solid;
+  color: black;
+  position: relative;
 }
 
 .Header-brand {
-  color: color(var(--brand-color) lightness(+10%));
-  text-decoration: none;
-  font-size: 1.75em; /* ~28px */
+  display: inline-block;
 }
 
+.Header-brand-image {
+  width: 200px;
+  height: 85.71px;
+
+}
 .Header-brandTxt {
   margin-left: 10px;
 }
 
 .Header-nav {
-  float: right;
-  margin-top: 6px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .Header-banner {

@@ -1,0 +1,37 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+div.SurgeryList {
+  border: 2px rgba(0,0,0,0.2) solid;
+  display: block;
+  height: 100%;
+  margin-left: 20px;
+  min-height: 600px;
+  width: 400px;
+}
+
+ul.SurgeryList-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 50px
+}
+
+li.SurgeryList-item {
+  border: 1px rgba(0,0,0,0.2) solid;
+  padding: 20px;
+  width: 260px;
+}
+
+div.Surgery span {
+  display: block;
+}
+
+span.Surgery-surgeon-crm {
+  color: blue;
+  font-size: 10px;
+
+}
+
+span.Surgery-surgeon-specialty {
+  font-size: 10px;
+  text-transform: uppercase;
+}

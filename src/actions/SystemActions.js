@@ -15,5 +15,16 @@ class SystemActions {
       'value': value,
     });
   }
+
+  receiveSurgeries(value) {
+    dispatcher.dispatch({
+      'type': ActionTypes.RECEIVE_SURGERIES,
+      'value': value,
+    });
+  }
+
+  errorReceivingSurgerires() {
+    // TODO
+  }
 }
 export default new SystemActions();
