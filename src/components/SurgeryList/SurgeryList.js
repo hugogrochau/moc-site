@@ -14,9 +14,7 @@ class SurgeryList extends Component {
 
   constructor() {
     super();
-    this.state = {
-      surgeries: [],
-    };
+    this.state = getStateFromStores();
 
     this._onStoreChange = this._onStoreChange.bind(this);
   }
